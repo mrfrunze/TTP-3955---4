@@ -67,6 +67,16 @@ body {
   margin: 0 auto;
 }
 
+main {
+  background: url(../images/bg-main.png) no-repeat right 0 top 20%;
+  background-size: 25%;
+}
+@media (max-width: 850px) {
+  main {
+    background: transparent;
+  }
+}
+
 .arrow-btn-up {
   width: 50px;
   height: 50px;
@@ -215,7 +225,7 @@ body {
   .header .menu {
     flex-direction: column;
     align-items: center;
-    padding: 255px 0px 0px 30px;
+    padding: 255px 0px 0px 0px;
     gap: 50px;
   }
 }
@@ -385,8 +395,6 @@ body {
 
 .article {
   padding: 0 0 68px 0;
-  background: url(../images/bg-main.png) no-repeat right top;
-  background-size: 25%;
 }
 @media (max-width: 1250px) {
   .article {
@@ -396,7 +404,6 @@ body {
 @media (max-width: 768px) {
   .article {
     padding: 0 15px 80px 15px;
-    background: transparent;
   }
 }
 .article ul,
